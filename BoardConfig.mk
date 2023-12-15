@@ -7,6 +7,10 @@
 
 DEVICE_PATH := device/samsung/gta7lite
 
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+TARGET_SUPPORTS_64_BIT_APPS := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
