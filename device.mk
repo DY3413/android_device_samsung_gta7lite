@@ -4,3 +4,12 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+# Fastbootd
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.1-impl-mock \
+    android.hardware.fastboot@1.0-impl-mock.recovery \
+    fastbootd
+
+PRODUCT_PRODUCT_PROPERTIES += \
+	ro.fastbootd.available=true
