@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "DY3413",
+    "repository": "android_kernel_samsung_mt6765",
+    "target_path": "kernel/samsung/mt6765",
+    "branch": "refs/tags/android-12.1"
+  }
+]
